@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+}
+
+h1 {
+    color: blue;
+    font-size: 3rem;
+    margin: 2rem 0 1rem;
+    text-align: center;
+}
+
+#container-button {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0 5rem
+}
+
+button,
+select {
+    margin-left: 1rem;
+    padding: 1rem;
+    border: 3px solid blue;
+}
+
+button:hover,
+select:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.w10 {
+    width: 604px;
+    border: 2px solid blue;
+}
+
+.w9 {
+    width: 544px;
+    border: 2px solid blue;
+}
+
+.w7 {
+    width: 424px;
+    border: 2px solid blue;
+}
+
+.square {
+    width: 60px;
+    aspect-ratio: 1;
+    border: 2px solid blue;
+}
+
+.checked {
+    background-color: green;
+}
+
+.bomb {
+    background-color: aqua;
+}
+
+.red {
+    background-color: red;
+}
